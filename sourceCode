@@ -1,0 +1,186 @@
+<style>
+#navBar{
+  background-color:#101D62;
+  position:sticky;
+  top:0;
+  height:56px;
+  text-align:center;
+  display:flex;
+}
+.imgWelcome{
+  box-shadow: 0 72px 60px rgba(0,0,0,0.19), 0 10px 6px rgba(0,0,0,0.23);
+  display:inline-block;
+  height: 200px;
+  width: 200px;
+  
+}
+.nav-button{
+  background-color:#101D62;
+  color: white;
+  height: 55px;
+  width: 72px;
+  
+}
+.nav-button:hover{
+  background-color:#581845;
+}
+.contact-button{
+  background-color:#101D62;
+  color: white;
+  text-align:center;
+  border-radius: 50px;
+  height: 72px;
+  width: 82px;
+  margin:5px;
+  text-align: center;
+  display:table-cell;
+  vertical-align:middle;
+  cursor: pointer;
+}
+.contact-button:hover{
+  background-color: #581845;
+  color: white;
+}
+
+a{
+  color:white;
+  text-decoration:none;
+  width: 50%;
+  height: 50%;
+}
+
+.center-welcome{
+  text-align: center;
+  height:66%;
+  width: 50%;
+  margin: auto;
+}
+#welcome-section{
+  background-color:#B3933A;
+  color:#0C0B02;
+  height:700px;
+  width: 100%;
+  display:flex;
+}
+.center-projects{
+  text-align: center;
+  height: 50%;
+  width 50%; 
+  margin: auto;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+#projects{
+  background-color: #558D92;
+  color: #0C0B02;
+  display: flex;
+  height: 100%;
+  width:100%;
+  
+}
+
+.row {
+  display: flex;
+  border:solid;
+  text-align: center;
+}
+.col {
+  flex: 50%;
+  border: solid;
+  padding: 10px;
+  
+}
+
+.project-tile{
+  background-color:#581845;
+  height:144px;
+  width:144px;
+  margin-left: 72px;
+  display:flex;
+  
+}
+
+#contact{
+  background-color:#AAB7B8;
+  color:#0C0B02;
+  height:650px;
+  width:100%;
+  display:flex;
+}
+.center-contact{
+  text-align: center;
+  width 50%;
+  height: 50%;
+  margin: auto;
+  margin-bottom:99px;
+   
+}
+@media (max-width:526px){
+  
+  h1{font-size: 20px;}
+  p{font-size: 16px;}
+  .imgWelcome{
+    width:144px;
+    height:144px;
+  }
+}
+</style>
+
+<html>
+<div id="navBar"class="row">
+  <a class="nav-button" href="#welcome-section">Welcome</a>
+  <a class="nav-button" href="#projects">Projects</a>
+ <a class="nav-button" href="#contact" >Contact</a>
+</div>
+
+
+<section name="welcome-section" id="welcome-section">
+<div class="center-welcome">
+
+  <h1>Welcome</h1>
+
+    <img  class="imgWelcome" src="https://i.ibb.co/Kqh8Wjw/amber.jpg" alt="amber"border="0"></img>
+
+  <p>Thanks for visiting my Portfolio</p>
+</div>
+</section>  
+ 
+
+  
+<section id="projects">
+  <div class="center-projects">
+  
+    <h2> My Projects </h2>
+        <h2>Form</h2>
+    <a href="https://codepen.io/coyotety/full/gyxLzV" target="_blank">
+      
+    <img class="project-tile" src="https://i.ibb.co/RH0cKkh/form-Snapshot.jpg" alt="form-project"></img>
+    
+    </a>
+  
+  <br>
+  
+  <h2>Favorite Authors</h2>
+     <a href="https://codepen.io/coyotety/full/axyxNb" target="_blank">   
+    <img class="project-tile" src="https://i.ibb.co/XXQnMTf/read-Me-snapshot.jpg" alt="form-project">
+       </img></a> <br>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/74358929&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+</div>
+</section>
+</html>
+
+
+<section id="contact">
+  
+  <div class="center-contact">
+  
+  <h1>Contact Me</h1><br>
+    <a class="contact-button" href="https://github.com/codytyler" target=blank_>GitHub</a> 
+    <a class="contact-button" href="https://www.facebook.com/coyote.codytyler" target=_blank>Facebook</a>
+    <a class="contact-button" href="https://www.soundcloud.com/cody-ryan-tyler" target=_blank>SoundCloud</a>
+
+  </div> 
+  
+
+</section>
+
